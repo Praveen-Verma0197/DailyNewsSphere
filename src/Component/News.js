@@ -25,7 +25,7 @@ capitalizeFirstLetter=(string)=>{
       loading: false,
       page: 1,
     };
-    document.title=`${this.capitalizeFirstLetter(this.props.category)} - NewsMonkey`;
+    document.title=`${this.capitalizeFirstLetter(this.props.category)} - DailyNewsSphere`;
   }
   async updateNews() {
     this.props.setProgress(10);
@@ -103,7 +103,7 @@ capitalizeFirstLetter=(string)=>{
       <div className="container my-3">
         <h1 className="text-center" style={{ margin: "40px" }}>
           {" "}
-          NewsMoneky - Top {this.capitalizeFirstLetter(this.props.category)}  Headlines 
+          DailyNewsSphere - Top {this.capitalizeFirstLetter(this.props.category)}  Headlines 
         </h1>
 
         <div className="row">
